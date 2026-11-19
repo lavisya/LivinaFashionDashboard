@@ -1,0 +1,33 @@
+# Data manipulation
+pandas>=2.2.3          # 2.2.2 has no Python 3.13 wheel; 2.2.3+ does
+numpy>=1.26.4
+openpyxl>=3.1.2         # read/write .xlsx files
+pyarrow>=17.0.0         # faster dataframes in Streamlit, parquet support
+
+# Statistics
+scipy>=1.13.1
+statsmodels>=0.14.4    # trend/seasonality tests, regression, time series
+
+# Dashboard
+streamlit>=1.40.0
+streamlit-aggrid>=1.0.5        # sortable/filterable tables
+streamlit-option-menu>=0.3.13  # nicer sidebar navigation
+streamlit-extras>=0.4.7        # metric cards styling, misc UI helpers
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.2
+plotly>=5.22.0          # main charting library for the dashboard
+altair>=5.3.0           # Streamlit's native chart backend
+kaleido>=0.2.1          # export Plotly charts to PNG/PDF
+
+# Exports / config
+xlsxwriter>=3.2.0       # "Download as Excel" buttons
+python-dotenv>=1.0.1    # keep paths/secrets out of code
+
+# Notebook environment
+jupyterlab>=4.2.2
+ipykernel>=6.29.4
+
+# Nice-to-haves for cleaning workflows
+missingno>=0.5.2       # visualize missing data patterns
